@@ -7,7 +7,7 @@
 sudo mn --topo single,7 --mac --controller=remote,ip=127.0.0.1 --switch ovs,protocols=OpenFlow13
 
 ### Command for initiating controller
-ryu run Desktop/fyp/farjad_sdn.py
+ryu run farjad_sdn.py
 
 ### Command for opening terminals
 xterm h1 h2 h3 h4 h5 h6 h7
